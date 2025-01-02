@@ -1,0 +1,12 @@
+name: 'Echo'
+description: 'Echo input to stdout.'
+inputs:
+  message:
+    description: 'Message to ech'
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: echo '${{ inputs.message }}'

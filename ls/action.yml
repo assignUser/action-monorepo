@@ -1,0 +1,12 @@
+name: 'ls'
+description: 'List contents of dir.'
+inputs:
+  dir:
+    description: 'Directory to lsit.'
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - shell: bash
+      run: ls -lar '${{ inputs.dir }}' 
