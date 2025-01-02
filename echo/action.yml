@@ -2,7 +2,7 @@ name: 'Echo'
 description: 'Echo input to stdout.'
 inputs:
   message:
-    description: 'Message to ech'
+    description: 'Message to echo'
     required: true
 
 runs:
