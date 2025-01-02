@@ -2,7 +2,7 @@ name: 'ls'
 description: 'List contents of dir.'
 inputs:
   dir:
-    description: 'Directory to lsit.'
+    description: 'Directory to list.'
     required: true
 
 runs:
